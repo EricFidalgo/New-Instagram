@@ -17,11 +17,10 @@ a {
 }
 
 #find {
-    font-size: 28px;
+    font-size: 27px;
     color: #fefffe;
     margin-bottom: .7rem;
     margin-left: 1.7rem !important;
-    font-weight: 500 !important;
 }
 
 .btn-outline {

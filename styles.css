@@ -41,6 +41,12 @@ a {
 
 /*body*/
 
+.br1 {
+    content: "";
+    margin: 3em;
+    display: block;
+}
+
 #translate {
     font-size: 34px;
     color: #8e8e8e;
@@ -51,5 +57,5 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 450px;
 }

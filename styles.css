@@ -1,6 +1,6 @@
 
   .bg-custom-2 {
-    background-image: linear-gradient(90deg,#c13584 0%, #fd5949 100%)
+    background-image: linear-gradient(90deg,#bd3381 0%, #ed5740 100%)
 }
 
 a {
@@ -12,13 +12,13 @@ a {
 
 #instagram {
     margin-top: .7rem;
-    color: white;
+    color: #fefffe;
     margin-left: 1.7rem !important;
 }
 
 #find {
     font-size: 25px;
-    color: white;
+    color: #fefffe;
     margin-bottom: .7rem;
     margin-left: 1.7rem !important;
 }
@@ -26,10 +26,10 @@ a {
 .btn-outline {
     font-size: 40px;
     font-weight: 600 !important;
-    color: white;
+    color: #fefffe;
     background-color: transparent;
     background-image: none;
-    border-color: white !important;
+    border-color: #fefffe !important;
     font-size: 25px !important;
     padding: 5px 15px !important;
     border-width: 3px !important;

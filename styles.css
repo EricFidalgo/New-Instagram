@@ -11,16 +11,16 @@ a {
 }
 
 #instagram {
-    padding-top: 1.5rem;
+    margin-top: 1.5rem;
     color: white;
-    margin-left: 2rem !important;
+    margin-left: 1.7rem !important;
 }
 
 #find {
     font-size: 30px;
     color: white;
-    padding-bottom: .7rem;
-    margin-left: 2rem !important;
+    margin-bottom: 1.5rem;
+    margin-left: 1.7rem !important;
 }
 
 .btn-outline {

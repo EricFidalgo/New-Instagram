@@ -28,13 +28,13 @@ a {
 #get {
     font-size: 32px;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #fefffe;
     background-color: transparent;
     background-image: none;
     border-color: #fefffe;
     padding: 20px 20px;
-    border: 2px solid #fefffe;
+    border: 3px solid #fefffe;
     border-radius: 5px;
     margin-right: 1.6rem;
 }

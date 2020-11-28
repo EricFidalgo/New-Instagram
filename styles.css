@@ -43,7 +43,7 @@ a {
 
 .br1 {
     content: "";
-    margin: 3em;
+    margin: 2em;
     display: block;
 }
 
@@ -57,5 +57,5 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    width: 420px;
 }

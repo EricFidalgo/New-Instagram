@@ -125,3 +125,9 @@ a {
     padding-left: 20px;
     -webkit-appearance: none;
 }
+
+.br2 {
+    content: "";
+    margin: 1em;
+    display: block;
+}

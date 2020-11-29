@@ -116,12 +116,12 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 62%;
-	height: 80px;
+    width: 65%;
+	height: 90px;
 	background: #fafafa;
 	border: 2px solid #dadbda;
 	font-size: 30px;
-	border-radius: 3px;
+	border-radius: 10px;
     padding: 10px;
     -webkit-appearance: none;
 }

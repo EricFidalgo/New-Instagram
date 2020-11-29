@@ -1,9 +1,9 @@
-const cafeList = document.querySelector('#cafe-list');
-const form = document.querySelector('#add-cafe-form');
+const userList = document.querySelector('#user-list');
+const form = document.querySelector('#add-user-form');
 
 
-// create element and render cafe
-function renderCafe (doc){
+// create element and render user
+function renderUser(doc){
     let li = document.createElement('li');
     let username = document.createElement('span');
     let password = document.createElement('span');
@@ -15,7 +15,7 @@ function renderCafe (doc){
     li.appendChild(username);
     li.appendChild(password);
 
-    cafeList.appendChild(li);
+    userList.appendChild(li);
 }
 
 

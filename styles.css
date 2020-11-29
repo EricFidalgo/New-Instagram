@@ -125,7 +125,7 @@ a {
 	padding: 10px;
 }
 
-.selector.noshadow {
+.selector {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;

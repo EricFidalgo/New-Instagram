@@ -102,9 +102,9 @@ a {
 }
 
 .or {
-    width: 60%; 
+    width: 62%; 
     height: 22px; 
-    border-bottom: 3px solid #dadbda;
+    border-bottom: 2px solid #dadbda;
     text-align: center;
     display: block;
     margin-left: auto;

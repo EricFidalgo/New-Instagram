@@ -121,14 +121,10 @@ a {
 	background: #fafafa;
 	border: 1px solid #efefef;
 	font-size: 30px;
-	border-radius: 30px;
-	color: #262626;
+	border-radius: 3px;
 	padding: 10px;
 }
 
-.wrapper .header .content #add-cafe-form .input:focus{
-	border: 1px solid #b2b2b2;
-}
 
 button {
 	color: #fff;

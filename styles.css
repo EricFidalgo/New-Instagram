@@ -109,7 +109,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .wrapper .header .content #add-cafe-form .input{
@@ -117,7 +117,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-	height: 90px;
+    height: 90px;
 	background: #fafafa;
 	border: 2px solid #dadbda;
 	font-size: 30px;
@@ -125,4 +125,3 @@ a {
     padding-left: 20px;
     -webkit-appearance: none;
 }
-

@@ -118,17 +118,4 @@ a {
     margin-right: auto;
     width: 62%;
 	height: 80px;
-	background: #fafafa;
-	border: 2px solid #efefef;
-	font-size: 30px;
-	border-radius: 3px;
-    padding: 10px;
-    -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-}
-
-button {
-	color: #fff;
-	display: block;
 }

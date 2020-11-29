@@ -200,3 +200,14 @@
     text-align:center;
 }
 
+.br3 {
+    content: "";
+    margin: 28em;
+    display: block;
+}
+
+.br5 {
+    content: "";
+    padding-top: 2em;
+    display: block;
+}

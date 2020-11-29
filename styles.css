@@ -127,6 +127,10 @@
     letter-spacing: .6px;
 }
 
+.wrapper .header .content #add-cafe-form .input:focus{
+	border: 1px solid #b2b2b2;
+}
+
 .br2 {
     content: "";
     margin: 1em;

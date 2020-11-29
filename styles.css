@@ -81,13 +81,13 @@ a {
     border: 1px solid #3897f0;
     border-radius: 10px !important;
     padding: 13px 0px !important;
-    margin-top: 8px;
+    margin-top: 10px;
     width: 650px;
 }
 
 #facebook {
-    margin-top: -2px;
-    margin-right: 24px;
+    margin-top: -7px;
+    margin-right: 26px;
     width: 40px !important;
     border-radius: 4px;
 }

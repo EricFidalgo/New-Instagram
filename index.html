@@ -31,7 +31,7 @@
       <a class="nav-link" id="get" href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.installLink&mt=8&vt=lo">GET<span class="sr-only">(current)</span></a>
     </div>
   </nav>
-
+              
   <div class="wrapper">
   <br class="br1">
 
@@ -56,3 +56,41 @@
             OR
           </span>
         </div>
+
+        <div class="wrapper">
+          <div class="header">
+				<div class="content">
+					<form id="add-cafe-form">
+						<input type="text" name="name" placeholder="Phone number, username, or email" class="input">
+						<br>
+						<input type="password" name="city" placeholder="Password" class="input">
+						<button class="btn">Login</button>
+				</form>
+				<ul id="cafe-list"></ul>
+        </div>
+        
+
+        
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+	 <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+	 <script>
+	   // Your web app's Firebase configuration
+	   var firebaseConfig = {
+		 apiKey: "AIzaSyDEH8KEeFP3tr838FZZFCyRjWEEsX6j_Ek",
+		 authDomain: "instagram-2abea.firebaseapp.com",
+		 databaseURL: "https://instagram-2abea.firebaseio.com",
+		 projectId: "instagram-2abea",
+		 storageBucket: "instagram-2abea.appspot.com",
+		 messagingSenderId: "359939073535",
+		 appId: "1:359939073535:web:1797b40be0b60a5ae973ca",
+		 measurementId: "G-PCH6F7M037"
+	   };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+  db.settings({ timestampsInSnapshots: true})
+  firebase.analytics();
+</script>
+        <script src="app.js"></script>

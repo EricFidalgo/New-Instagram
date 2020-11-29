@@ -91,3 +91,22 @@ a {
     width: 40px !important;
     border-radius: 4px;
 }
+
+.line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700; 
+    background-color: white; 
+    padding: 0 40px;
+    color: #8e8e8e;
+}
+
+.or {
+    width: 60%; 
+    height: 30px; 
+    border-bottom: 1px solid #dadbda;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

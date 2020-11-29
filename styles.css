@@ -125,7 +125,10 @@
     padding-left: 20px;
     -webkit-appearance: none;
     letter-spacing: .6px;
+}
 
+input:focus {
+    outline: none;
 }
 
 

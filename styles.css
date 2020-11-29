@@ -166,3 +166,20 @@
     text-align: center;
     letter-spacing: .6px;
 }
+
+#sign {
+    font-weight: 700;
+    color:  #0095f6;
+}
+
+/*footer*/
+
+#footer {
+    width: 100%;
+}
+
+.br3 {
+    content: "";
+    margin: 30em;
+    display: block;
+}

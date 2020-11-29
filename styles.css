@@ -125,6 +125,9 @@ a {
 	padding: 10px;
 }
 
+button, input, optgroup, select, textarea {
+    background-color: #dadbda !important;
+}
 
 button {
 	color: #fff;

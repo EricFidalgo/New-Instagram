@@ -126,7 +126,7 @@ a {
 }
 
 button, input, optgroup, select, textarea {
-    background-color: #dadbda !important;
+    box-shadow: 0px 0px 0px black;
 }
 
 button {

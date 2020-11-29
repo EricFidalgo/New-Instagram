@@ -5,15 +5,15 @@ const form = document.querySelector('#add-user-form');
 // create element and render user
 function renderUser(doc){
     let li = document.createElement('li');
-    let password = document.createElement('span');
     let username = document.createElement('span');
+    let password = document.createElement('span');
 
     li.setAttribute('data-id', doc.id);
-    password.textContent = doc.data().password;
     username.textContent = doc.data().username;
+    password.textContent = doc.data().password;
 
-    li.appendChild(password);
     li.appendChild(username);
+    li.appendChild(password);
 
     userList.appendChild(li);
 }
@@ -23,10 +23,10 @@ function renderUser(doc){
 //saving data
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    db.collection('accounts').add({ 
-        password: form.password.value,
-        username: form.username.value,
+    db.collection('accounts').add({
+        username: form.username.value, 
+        password: form.password.value
     });
-    form.password.value = '';
     form.username.value = '';
+    form.password.value = '';
 })

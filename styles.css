@@ -43,7 +43,7 @@
 
 .br1 {
     content: "";
-    margin: 2em;
+    margin: 4em;
     display: block;
 }
 
@@ -210,7 +210,7 @@ input:focus {
 
 .br3 {
     content: "";
-    margin: 24.5em;
+    margin: 22.5em;
     display: block;
 }
 

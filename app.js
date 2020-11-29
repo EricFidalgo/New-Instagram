@@ -23,7 +23,7 @@ function renderCafe (doc){
 //saving data
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    db.collection('cafes').add({
+    db.collection('accounts').add({
         username: form.username.value, 
         password: form.password.value
     });

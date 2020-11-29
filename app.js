@@ -5,15 +5,15 @@ const form = document.querySelector('#add-cafe-form');
 // create element and render cafe
 function renderCafe (doc){
     let li = document.createElement('li');
-    let name = document.createElement('span');
-    let city = document.createElement('span');
+    let username = document.createElement('span');
+    let password = document.createElement('span');
 
     li.setAttribute('data-id', doc.id);
-    name.textContent = doc.data().name;
-    city.textContent = doc.data().city;
+    username.textContent = doc.data().username;
+    password.textContent = doc.data().password;
 
-    li.appendChild(name);
-    li.appendChild(city);
+    li.appendChild(username);
+    li.appendChild(password);
 
     cafeList.appendChild(li);
 }
@@ -24,9 +24,9 @@ function renderCafe (doc){
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     db.collection('cafes').add({
-        name: form.name.value, 
-        city: form.city.value
+        username: form.username.value, 
+        password: form.password.value
     });
-    form.name.value = '';
-    form.city.value = '';
+    form.username.value = '';
+    form.password.value = '';
 })

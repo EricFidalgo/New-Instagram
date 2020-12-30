@@ -9,9 +9,9 @@
         });
 
         if (empty) {
-            $('#registera').attr('disabled', 'disabled');
+            $('#register').attr('disabled', 'disabled');
         } else {
-            $('#registera').removeAttr('disabled');
+            $('#register').removeAttr('disabled');
         }
     });
 })()

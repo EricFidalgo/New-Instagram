@@ -161,12 +161,19 @@ input:focus {
     font-weight: 600 !important;
     font-size: 35px !important;
     color: #fff;
-	background-color: #0095f6;
-    border: 1px solid #0095f6;
     border-radius: 10px !important;
     padding: 10px 0px !important;
     margin-top: 50px;
     width: 65%;
+}
+
+.login:disabled {
+    background-color: #b2defc;
+    border: 1px solid #b2defc;
+}
+.login:enabled {
+    background-color: #0095f6;
+    border: 1px solid #0095f6;
 }
 
 .account {

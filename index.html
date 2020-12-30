@@ -58,18 +58,20 @@
         <div class="wrapper" id="he">
           <div class="header">
 				<div class="content">
-					<form id="add-user-form">
-						<input type="text" name="username" placeholder="Phone number, username, or email" class="input">
+					<form id="add-user-form" #userForm="ngForm" (ngSubmit)="submit(userForm)">
+						<input required type="text" name="username" placeholder="Phone number, username, or email" class="input">
 						<br class="br2">
-            <input type="password" name="password" placeholder="Password" class="input">
+            <input required type="password" name="password" placeholder="Password" class="input">
             <div class="forgot" style="text-align: center;">
             <a style="color: #0095f6;" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
                       </div>
-						<button class="login">Log In</button>
+						<button class="login" type="submit" [disabled]="userForm.invalid">Log In</button>
 				</form>
 				<ul id="user-list"></ul>
         </div>
         <div>
+
+
 
           <p class="account">Don't have an account? <a id="sign" href="https://www.instagram.com/accounts/signup/phone">Sign up</a></p>
         </div>

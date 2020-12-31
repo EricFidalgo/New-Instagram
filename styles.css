@@ -85,7 +85,7 @@ img {
     border-radius: 10px !important;
     padding: 13px 0px !important;
     margin-top: 14px;
-    width: 65%;
+    width: 70%;
 }
 
 #facebook {
@@ -105,7 +105,7 @@ img {
 }
 
 .or {
-    width: 65%; 
+    width: 70%; 
     height: 22px; 
     border-bottom: 2px solid #dadbda;
     text-align: center;
@@ -119,8 +119,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
-    height: 90px;
+    width: 70%;
+    height: 100px;
 	background: #fafafa;
 	border: 2px solid #dadbda;
 	font-size: 30px;
@@ -165,7 +165,7 @@ input:focus {
     border-radius: 10px !important;
     padding: 10px 0px !important;
     margin-top: 50px;
-    width: 65%;
+    width: 70%;
 }
 
 .login:disabled {

@@ -88,6 +88,10 @@ img {
     width: 70%;
 }
 
+.btn:active {
+    outline: 0px !important;
+}
+
 #facebook {
     margin-top: -5px;
     margin-right: 22px;
@@ -175,6 +179,7 @@ input:focus {
 .login:enabled {
     background-color: #0095f6;
     border: 1px solid #0095f6;
+    outline: 0px !important;
 }
 
 .account {
@@ -244,7 +249,39 @@ input:focus {
     }
 }
 
-svg {
+.insta-logo {
+    background-color: white;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    margin: -80px 0 0px -80px;
+    fill: #c7c7c7;
+    animation-name: lo;
+    opacity: 1;
+    animation: lo 0s normal forwards step-end;
+    animation-delay: .4s;
+}
+
+@keyframes lo {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.loading {
+
+    margin: auto; 
+    background: rgb(255, 255, 255); 
+    display: block; 
+    shape-rendering: auto;
+
+
     width: 130px;
     position: absolute;
     top: 50%;
@@ -256,7 +293,7 @@ svg {
     animation-name: lo;
     opacity: 1;
     animation: lo 0s normal forwards step-end;
-    animation-delay: 1s;
+    animation-delay: .47s;
 }
 
 @keyframes lol {
@@ -272,5 +309,5 @@ svg {
     animation-name: lol;
     opacity: 0;
     animation: lol 0s normal forwards step-end;
-    animation-delay: 1s;
+    animation-delay: .47s;
 }

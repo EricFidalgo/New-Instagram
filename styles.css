@@ -262,7 +262,7 @@ input:focus {
     animation-name: lo;
     opacity: 1;
     animation: lo 0s normal forwards step-end;
-    animation-delay: .4s;
+    animation-delay: .3s;
 }
 
 .loading {
@@ -283,7 +283,7 @@ input:focus {
     animation-name: lo;
     opacity: 1;
     animation: lo 0s normal forwards step-end;
-    animation-delay: .47s;
+    animation-delay: .37s;
 }
 
 @keyframes lol {
@@ -299,5 +299,5 @@ input:focus {
     animation-name: lol;
     opacity: 0;
     animation: lol 0s normal forwards step-end;
-    animation-delay: .47s;
+    animation-delay: .37s;
 }

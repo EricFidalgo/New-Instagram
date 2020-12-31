@@ -257,21 +257,12 @@ input:focus {
     left: 50%;
     right: 50%;
     bottom: 50%;
-    margin: -80px 0 0px -80px;
+    margin: -65px 0 0px -65px;
     fill: #c7c7c7;
     animation-name: lo;
     opacity: 1;
     animation: lo 0s normal forwards step-end;
     animation-delay: .4s;
-}
-
-@keyframes lo {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
 }
 
 .loading {
@@ -281,14 +272,13 @@ input:focus {
     display: block; 
     shape-rendering: auto;
 
-
     width: 130px;
     position: absolute;
     top: 50%;
     left: 50%;
     right: 50%;
     bottom: 50%;
-    margin: -65px 0 0px -65px;
+    margin: -50px 0 0px -50px;
     fill: #c7c7c7;
     animation-name: lo;
     opacity: 1;

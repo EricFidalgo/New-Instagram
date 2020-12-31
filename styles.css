@@ -245,18 +245,18 @@ input:focus {
 }
 
 svg {
-    width: 50%;
+    width: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
     right: 50%;
     bottom: 50%;
-    margin: -12% 0 0px -12%;
+    margin: -85px 0 0px -85px;
     fill: #c7c7c7;
     animation-name: lo;
     opacity: 1;
     animation: lo 0s normal forwards step-end;
-    animation-delay: 100s;
+    animation-delay: 1s;
 }
 
 @keyframes lol {

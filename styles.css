@@ -245,13 +245,13 @@ input:focus {
 }
 
 svg {
-    width: 150px;
+    width: 125px;
     position: absolute;
     top: 50%;
     left: 50%;
     right: 50%;
     bottom: 50%;
-    margin: -70px 0 0px -70px;
+    margin: -61px 0 0px -61px;
     fill: #c7c7c7;
     animation-name: lo;
     opacity: 1;

@@ -132,6 +132,7 @@ img {
 
 input:focus {
     outline: none;
+    border: 2px solid #a8a8a8 !important;
 }
 
 
